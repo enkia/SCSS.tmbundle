@@ -1283,7 +1283,7 @@
 					<key>comment</key>
 					<string>We even have error highlighting &lt;3</string>
 					<key>match</key>
-					<string>[=\{\}\?\;\@]</string>
+					<string>[=\{\}\?\;]</string>
 					<key>name</key>
 					<string>invalid.illegal.character_not_allowed_here.scss</string>
 				</dict>
