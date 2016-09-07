@@ -1821,7 +1821,7 @@
 				</dict>
 			</dict>
 			<key>match</key>
-			<string>(:+)\b(link|visited|hover|active|focus|target|lang|disabled|enabled|checked|indeterminate|root|nth-child|nth-last-child|nth-of-type|nth-last-of-type|first-child|last-child|first-of-type|last-of-type|nth-of-last-type|only-child|only-of-type|empty|not|valid|invalid)([\(\)\+0-9A-Za-z]*)?</string>
+			<string>(:+)\b(link|visited|hover|active|focus|target|lang|disabled|enabled|checked|indeterminate|root|nth-child|nth-last-child|nth-of-type|nth-last-of-type|first-child|last-child|first-of-type|last-of-type|nth-of-last-type|only-child|only-of-type|empty|not|valid|invalid)([\(\)\+--0-9A-Za-z]*)?</string>
 			<key>name</key>
 			<string>entity.other.attribute-name.pseudo-class.css</string>
 		</dict>
@@ -1836,7 +1836,7 @@
 				</dict>
 			</dict>
 			<key>match</key>
-			<string>(:+)(-(webkit|moz)-)?\b(after|before|first-letter|first-line|selection|any-link|local-link|input-placeholder|focus-inner|matches|nth-match|column|nth-column)\b</string>
+			<string>(:+)(-(webkit|moz|ms)-)?\b(after|before|first-letter|first-line|selection|any-link|local-link|input-placeholder|placeholder|focus-inner|matches|nth-match|column|nth-column)\b</string>
 			<key>name</key>
 			<string>entity.other.attribute-name.pseudo-element.css</string>
 		</dict>
